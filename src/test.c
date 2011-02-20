@@ -14,6 +14,11 @@ int fact(int n)
   return n * fact(n-1);
 }
 
+int remove_one(int n)
+{
+  return n-1;
+}
+
 int add_one(int n)
 {
   return n+1;
