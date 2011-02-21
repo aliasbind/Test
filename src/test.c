@@ -19,11 +19,6 @@ int remove_one(int n)
   return n-1;
 }
 
-int add_one(int n)
-{
-  return n+1;
-}
-
 int main(int argc, char *argv[])
 {
   printf("Hello, World!\n");
