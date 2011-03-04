@@ -5,6 +5,11 @@ int difference(int a, int b)
   return a-b;
 }
 
+int addition(int x, int y)
+{
+  return x+y;
+}
+
 int fib(int n)
 {
   if(n == 0 || n == 1)
