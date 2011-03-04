@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+int difference(int a, int b)
+{
+  return a-b;
+}
+
 int fib(int n)
 {
   if(n == 0 || n == 1)
