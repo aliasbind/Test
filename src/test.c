@@ -1,17 +1,8 @@
 #include <stdio.h>
 
-int fib(int n)
+int addition(int x, int y)
 {
-  if(n == 0 || n == 1)
-    return n;
-  return fib(n-1) + fib(n-2);
-}
-
-int fact(int n)
-{
-  if(n == 1)
-    return 1;
-  return n * fact(n-1);
+  return x+y;
 }
 
 int remove_one(int n)
